@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>@yield('header-title', 'Карта добрых дел Севастополя')</title>
     <script src="https://api-maps.yandex.ru/v3/?apikey={{ config('services.yandex_api.api_yandex_map')}}&lang=ru_RU"></script>
-    @vite(['resources/css/app.css', 'resources/js/yandexMap.js'])
+    @vite(['resources/css/app.css', 'resources/js/yandexMap.js','resources/js/marker.js'])
 </head>
 <body class="overflow-hidden">
     <main>
